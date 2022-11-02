@@ -55,10 +55,10 @@ li:hover {
   text-decoration: none;
 }
 
-
 .container {
   margin: 0 auto;
   display: grid;
+  grid-template-columns: 25%;
   gap: 20px;
 }
 
@@ -70,7 +70,6 @@ li:hover {
       padding: 10px;
       margin: 25px 50px;
       text-align: center;
-
     }
   }
 
