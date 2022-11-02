@@ -12,8 +12,8 @@ body {
 
 .round-photo{
   width: 400px;
-  height: 400px;
-  border-radius: 50%;
+  /* height: 400px;*/
+  border-radius: 200px;
 
 }
 
@@ -70,13 +70,13 @@ li:hover {
   display: grid;
   grid-template-columns: repeat(3, 30%);
   grid-auto-rows: minmax(100px, auto);
-  gap: 30px 5px;
+  gap: 100px 5px;
 }
 
   @media (max-width: 1920px){
     .card {
       background-color: white;
-      border-radius: 5%;
+      border-radius: 25px;
       box-shadow: 10px 10px 15px rgba(0,0,0,0);
       padding: 10px;
       margin: 25px 50px;
@@ -98,6 +98,6 @@ li:hover {
 
 .card:hover {
   box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
-  border-radius: 10%;
+  border-radius: 100px;
   animation-duration: 0.2s;
 }
