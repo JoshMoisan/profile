@@ -56,11 +56,11 @@ li:hover {
 }
 
 
-  .container {
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-  }
+.container {
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
 
   @media (max-width: 1920px){
     .card {
