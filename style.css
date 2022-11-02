@@ -2,8 +2,7 @@
 
 
 body {
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,242,252,1) 100%);
+  background-image: url(images/background.jpg);
   font-family: 'Roboto', sans-serif;
   color: #35393C;
   font-size: 16px;
@@ -71,7 +70,8 @@ li:hover {
   display: grid;
   grid-template-columns: repeat(3, 30%);
   grid-auto-rows: minmax(100px, auto);
-  gap: 100px 5px;
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
 }
 
   @media (max-width: 1920px){
